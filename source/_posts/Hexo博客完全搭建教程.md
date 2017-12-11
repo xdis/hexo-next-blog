@@ -36,7 +36,7 @@ $ cd ~/. ssh
 ```git
 ssh-keygen -t rsa -C "邮件地址"
 ```
-然后连续3次回车，最终会生成一个文件在用户目录下，打开用户目录，找到 ```.ssh\id_rsa.pub ```文件，记事本打开并复制里面的内容，打开你的github主页，进入个人设置 -> SSH and GPG keys -> New SSH key：
+然后连续3次回车，最终会生成一个文件在用户目录下，打开用户目录，找到 .ssh\id_rsa.pub 文件，记事本打开并复制里面的内容，打开你的github主页，进入个人设置 -> SSH and GPG keys -> New SSH key：
 
 ```git
 $ ssh -T git@github.com # 测试配置是否成功, 注意邮箱地址不用改
@@ -562,7 +562,7 @@ code {
 
 
 
-# 网站底部字数统计
+## 网站底部字数统计
 
 切换到根目录下，然后运行如下代码
 

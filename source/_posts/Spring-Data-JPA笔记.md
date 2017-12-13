@@ -1,5 +1,5 @@
 ---
-title: Spring Boot JPA笔记
+title: Spring Data JPA笔记
 copyright: true
 date: 2017-12-13 21:31:32
 tags: [SpringBoot, JPA]

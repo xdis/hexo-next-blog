@@ -1,28 +1,18 @@
 ---
-/**
- * 
- */
-package com.jiangyx.bookshop.repository;
-
-import java.util.List;
-
-import org.springframework.data.repository.CrudRepository;
-
-import com.jiangyx.bookshop.domain.Book;
-
-/**
- * @author Jhacker
- *
- */
-public interface BookRepository extends CrudRepository<Book, Long> {
-	
-	List<Book> findByName(String name);
-}title: Spring Data JPA Repository 使用小结
+title: Spring-Data-JPA-Repository-使用小结
 copyright: true
-date: 2017-12-14 21:26:12
+date: 2017-12-15 21:31:32
 tags: [SpringBoot, JPA]
 categories: Spring与Dubbo分布式REST服务开发
 ---
+---
+* Repository之基本增删改查
+* Repository-分页和排序
+* Repository-静态查询
+* Repository-动态查询
+* Repository-自定义Repository
+
+<!--more-->
 
 # Repository之基本增删改查
 

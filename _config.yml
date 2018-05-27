@@ -80,7 +80,8 @@ avatar: /avatar/avatar.png
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/jiangyx3915/jiangyx3915.github.io.git
+  # repo: https://github.com/jiangyx3915/jiangyx3915.github.io.git
+  repo: https://jiangyx3915:123456jyx@github.com/jiangyx3915/jiangyx3915.github.io.git
   branch: master
 
 plugins: hexo-generate-feed

@@ -77,7 +77,7 @@ def run(self, host=None, port=None, debug=None, **options):
         self._got_first_request = False
 ```
 
-可以看出在调用时，Flask会依次对host、port、debug等进行赋值。对于options参数，Flask会进行```use_reloader``` 和 ```use_debugger``` 的设置，这会影响到请求日志的打印和热加载。最后的run_simple方法其实就是使用werkzeug提供的方法启动的一个服务器，我们不使用其实也可以利用werkzeug写一个小型自定义web框架。
+可以看出在调用时，Flask会依次对host、port、debug等进行赋值。对于options参数，Flask会进行`use_reloader` 和 `use_debugger` 的设置，这会影响到请求日志的打印和热加载。最后的run_simple方法其实就是使用werkzeug提供的方法启动的一个服务器，我们不使用其实也可以利用werkzeug写一个小型自定义web框架。
 
 ```python
 from werkzeug.wrappers import Request, Response
